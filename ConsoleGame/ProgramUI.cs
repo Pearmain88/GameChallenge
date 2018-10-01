@@ -137,9 +137,6 @@ namespace ConsoleGame
                     Hide();
                     break;
                 case 3:
-                    Flee();
-                    break;
-                case 4:
                     MagicAttack();
                     break;
                 default:
