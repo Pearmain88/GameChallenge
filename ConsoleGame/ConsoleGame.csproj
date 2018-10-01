@@ -42,8 +42,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Armor.cs" />
+    <Compile Include="ArmorRepo.cs" />
+    <Compile Include="Enemy.cs" />
+    <Compile Include="EnemyRepo.cs" />
+    <Compile Include="Hero.cs" />
+    <Compile Include="HeroRepo.cs" />
+    <Compile Include="Magic.cs" />
+    <Compile Include="MagicRepo.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="ProgramUI.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Weapon.cs" />
+    <Compile Include="WeaponRepo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -6,12 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleGame
 {
-    class Program
+    class Magic
     {
-        static void Main(string[] args)
-        {
-            ProgramUI program = new ProgramUI();
-            program.Run();
-        }
+        public string Name { get; set; }
+        public int AttackBonus { get; set; }        
     }
 }
